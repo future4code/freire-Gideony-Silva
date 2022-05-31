@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: rgb(255, 125, 3);
+    display: grid;
+    grid: 50px / 1fr 1fr;
+    align-items: center;
+    overflow: hidden;
+    padding: 20px 10px;
+}
+
+#divBusca{
+    background-color:#2F4F4F;
+    width:200px;
+    border:none;
+    height:32px;
+    margin: 0 80px;
+
+}
+
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:1px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:200px;
+}
+
+
+main{
+    width: 100vw;
+}
+
+.videos {
+    padding: 10px 10px;
+    display: grid;
+    justify-content: center;
+    margin: 0 100px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;    
+   
+}
+
+
+
+
+.item1 {
+    background: #b03532;
+    font-size: 20px;  
+    width: 350px;
+    
+}
+
+video{
+    width: 350px;
+    height: 250px;
+}
+
+
+
+
+footer {
+    background-color: rgb(255, 125, 3);
+    align-items: center;
+    overflow: hidden;
+    padding: 20px 10px;
+}
