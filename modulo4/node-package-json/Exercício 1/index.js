@@ -1,4 +1,4 @@
-// Exercício 1
+// Exercício 1 teste ok
 
     // 1:
     // A - process.argv
