@@ -38,7 +38,7 @@ Erro:
 Código de Erro: 1062. Entrada duplicada '002' para a chave 'PRIMARY' 
 ```
 
-### Exercício 3
+### Exercício 3:
 
 a)
 ```
@@ -75,7 +75,7 @@ Solução:
 SELECT id, name FROM Actor WHERE id = "002"
 ```
 
-### Exercíco 4
+### Exercíco 4:
 a)
 ```
  A _query_ acima vai buscar na tabela Actor os registros que tem às condições. No caso ela vai verifica o **name** e retorna os que possuem os valores.
@@ -96,7 +96,7 @@ SELECT * FROM Actor
 WHERE (name LIKE "%G%" or name Like "%A%" && salary BETWEEN 350000 AND 900000 );
 ```
 
-### Exercício 5
+### Exercício 5:
 a)
 ```
 CREATE TABLE Movies (
@@ -120,4 +120,18 @@ VALUES(
 "2006-01-06",
 7
 )
+```
+### Exercício 6:
+
+a) 
+```
+SELECT id, name, rating FROM Movies WHERE id = "001";
+```
+b)
+```
+SELECT * FROM Movies WHERE name = "Se Eu Fosse Você";
+```
+c)
+```
+SELECT id, name, synopsis FROM Movies WHERE rating >= 7;
 ```
