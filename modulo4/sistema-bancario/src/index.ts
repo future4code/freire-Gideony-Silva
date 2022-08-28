@@ -309,12 +309,7 @@ app.post("/users/:name/transfer", (req: Request, res: Response) => {
       }
     })
 
-  } catch (error: any) {
-    res.status(errorCode).send({
-      message: error.message
-    })
-  }
-})
+
 
 
 app.put("/users/:name", (req: Request, res: Response) => {
