@@ -19,6 +19,7 @@ const server = app.listen(process.env.PORT || 3003, () => {
 
 let clients: Client[] = []
 
+//teste
 
 fs.readFile('./src/data/clients.txt', 'utf8', (err: any, data: any) => {
   if (err) throw err;
